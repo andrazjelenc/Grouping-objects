@@ -3,9 +3,9 @@ Data mining method to split n objects into k groups by m parameters
 
 
 Test input:
-20 2 4
-1 4
-4 2 
+20 2 4<br />
+1 4<br />
+4 2<br />
 1 7
 9 5
 5 5
