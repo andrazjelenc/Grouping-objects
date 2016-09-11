@@ -1,5 +1,5 @@
 # Grouping-objects
-Data mining method to split n objects into k groups by m parameters
+Data mining k-means clustering hevristic method to split n objects into k groups by m parameters
 
 
 <b>Test input:</b><br />
