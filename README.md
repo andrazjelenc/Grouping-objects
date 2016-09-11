@@ -2,7 +2,7 @@
 Data mining method to split n objects into k groups by m parameters
 
 
-Test input:
+<b>Test input:</b><br />
 20 2 4<br />
 1 4<br />
 4 2<br />
@@ -25,7 +25,7 @@ Test input:
 2 8<br />
 3 7<br />
 
-Test output:<br />
+<b>Test output:</b><br />
 Center: (2.3333333333333335, 5.0)<br />
 --> (1.0, 4.0)<br />
 --> (5.0, 5.0)<br />
