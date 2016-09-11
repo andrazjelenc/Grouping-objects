@@ -18,6 +18,7 @@ public class Main {
 		if(k >= n)
 		{
 			System.out.println("More groups than objects!");
+			System.exit(0);
 		}
 		
 		double data[][] = new double[n][m];
@@ -50,14 +51,14 @@ public class Main {
 			}
 			//iteration
 			//print current centers
-			for(int i  = 0; i < k; i++)
+			/*for(int i  = 0; i < k; i++)
 			{
 				for(int j = 0; j < m; j++)
 				{
 					System.out.print(centers[i][j] + " ");
 				}
 				System.out.println();
-			}
+			}*/
 			
 			//go trough all object and add it to best suitable group
 			for(int i = 0; i < n; i++)
@@ -103,7 +104,7 @@ public class Main {
 			
 			if(!changes)
 			{
-				System.out.println("DONE");
+				//System.out.println("DONE");
 				break;
 			}
 			//wait for user input
