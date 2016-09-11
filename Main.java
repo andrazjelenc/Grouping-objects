@@ -37,7 +37,7 @@ public class Main {
 
 		for(int i = 0; i < k; i++)
 		{
-			centers[i] = data[n-1-i].clone();
+			centers[i] = data[i].clone();
 			groups.add(new HashSet<Integer>());
 		}
 		
