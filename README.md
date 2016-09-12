@@ -2,7 +2,7 @@
 Data mining k-means clustering hevristic method to split n objects into k groups by m parameters
 
 
-<b>Test input:</b><br />
+<b>Test input: </b>(with 100 000 iterations)<br />
 20 2 4<br />
 1 4<br />
 4 2<br />
@@ -26,11 +26,15 @@ Data mining k-means clustering hevristic method to split n objects into k groups
 3 7<br />
 
 <b>Test output:</b><br />
-Center: (2.3333333333333335, 5.0)<br />
---> (1.0, 4.0)<br />
+Group #:<br />
+--> (9.0, 5.0)<br />
+--> (9.0, 9.0)<br />
+Group #:<br />
+--> (6.0, 5.0)<br />
 --> (5.0, 5.0)<br />
---> (1.0, 6.0)<br />
-Center: (4.125, 1.375)<br />
+--> (4.0, 6.0)<br />
+--> (4.0, 7.0)<br />
+Group #:<br />
 --> (3.0, 1.0)<br />
 --> (4.0, 2.0)<br />
 --> (2.0, 1.0)<br />
@@ -39,14 +43,10 @@ Center: (4.125, 1.375)<br />
 --> (6.0, 1.0)<br />
 --> (8.0, 1.0)<br />
 --> (4.0, 2.0)<br />
-Center: (2.8333333333333335, 7.0)<br />
+Group #:<br />
+--> (1.0, 4.0)<br />
 --> (1.0, 7.0)<br />
 --> (2.0, 8.0)<br />
 --> (3.0, 7.0)<br />
---> (4.0, 6.0)<br />
 --> (3.0, 7.0)<br />
---> (4.0, 7.0)<br />
-Center: (8.0, 6.333333333333333)<br />
---> (6.0, 5.0)<br />
---> (9.0, 5.0)<br />
---> (9.0, 9.0)<br />
+--> (1.0, 6.0)<br />
